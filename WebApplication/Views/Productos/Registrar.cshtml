@@ -1,0 +1,33 @@
+﻿<div class="jumbotron">
+    <h2>Registrar</h2>
+    <div id="errors" class="alert alert-danger" role="alert" style="display:none;"></div>
+    <form id="formregistrar">
+        <div class="form-group">
+            <label>Codigo</label>
+            <input class="form-control" name="Codigo" placeholder="Ingrese codigo producto" required />
+        </div>
+        <div class="form-group">
+            <label>Nombre</label>
+            <input class="form-control" name="Nombre" placeholder="Ingrese nombre producto" required />
+        </div>
+        <div class="form-group">
+            <label>Descripción</label>
+            <input class="form-control" name="Descripcion" placeholder="Ingrese descripcion producto" required />
+        </div>
+        <div class="form-group">
+            <label>Precio Venta</label>
+            <input class="form-control" name="PrecioVenta" placeholder="Ingrese stock minimo producto" required />
+        </div>
+        <div class="form-group">
+            <label>Stock Minimo</label>
+            <input class="form-control" name="StockMinimo" placeholder="Ingrese stock minimo producto" required />
+        </div>
+        <div class="form-group">
+            <label>Stock Maximo</label>
+            <input class="form-control" name="StockMaximo" placeholder="Ingrese stock maximo producto" required />
+        </div>
+        <button class="btn btn-success" type="submit">Registrar</button>
+        <a href="/productos" class="btn btn-danger">Cancelar</a>
+    </form>
+</div>
+<script src="~/Scripts/Productos/registrar.js"></script>
